@@ -1,0 +1,18 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Extract Laparoscopic APM",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": ["--model_path", "70.15.15WEIGHTS.pt", // ".\\YoloFineTuning/runs/detect/train2/weights/best.pt"
+            "--video_source", "..\\cholec80\\videos\\video43.mp4",
+            "--output_dir", "results", "--tracker", "BoTSort", "--tracker_fps", "1"]
+        }
+    ]
+}

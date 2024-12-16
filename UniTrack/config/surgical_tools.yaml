@@ -1,0 +1,12 @@
+# Root directory for dataset
+path: split_data  # Set to the root of your new split data directory
+
+# Paths to train and validation images folders
+train: train/images  # Path within the dataset to training images
+val: val/images      # Path within the dataset to validation images
+
+# Number of classes
+nc: 7
+
+# Class names
+names: ["Grasper", "Bipolar", "Hook", "Scissors", "Clipper", "Irrigator", "SpecimenBag"]

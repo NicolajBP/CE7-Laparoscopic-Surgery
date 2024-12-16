@@ -1,0 +1,5 @@
+The dataset folder is used for training the Yolo11 model (YoloFineTuning/yolo_fine_tuning.py)
+The split_data is created from YoloFineTuning/data_split.py, and manually moved to this folder
+
+The reason its placed in the root directory and not inside of YoloFineTuning is because this is the default location for UltraLytics
+(Package that contains YOLO11), so instead of having everyone change their default path, it's easier to just place it here
